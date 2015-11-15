@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F49F7C61BB5C9DF00EF5B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7C51BB5C9DF00EF5B63 /* main.m */; };
+		8F49F7D11BB5C9DF00EF5B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */; };
+		8F49F7D41BB5C9DF00EF5B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */; };
+		8F49F7E01BB5C9DF00EF5B63 /* TenMinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7DF1BB5C9DF00EF5B63 /* TenMinDemoTests.m */; };
+		8F49F81A1BB5CDB900EF5B63 /* CYXOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7ED1BB5CDB900EF5B63 /* CYXOneViewController.m */; };
+		8F49F81B1BB5CDB900EF5B63 /* CYXTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7F31BB5CDB900EF5B63 /* CYXTwoViewController.m */; };
+		8F49F81C1BB5CDB900EF5B63 /* CYXThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7F91BB5CDB900EF5B63 /* CYXThreeViewController.m */; };
+		8F49F81D1BB5CDB900EF5B63 /* BaseSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7FF1BB5CDB900EF5B63 /* BaseSettingController.m */; };
+		8F49F8241BB5CDB900EF5B63 /* CYXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */; };
+		8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */; };
+		8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */; };
+		8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */; };
+		EA62BBAE1BF85A0500249555 /* CYXFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62BBAD1BF85A0500249555 /* CYXFourViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F49F7DA1BB5C9DF00EF5B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F49F7B81BB5C9DF00EF5B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F49F7BF1BB5C9DF00EF5B63;
+			remoteInfo = TenMinDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E9543E8849F85F3B1D0D784 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9E8C71C7994594B16CC328 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8F49F7C01BB5C9DF00EF5B63 /* SettingPage框架.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SettingPage框架.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F49F7C41BB5C9DF00EF5B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F49F7C51BB5C9DF00EF5B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F49F7D31BB5C9DF00EF5B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8F49F7D91BB5C9DF00EF5B63 /* SettingPage框架.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SettingPage框架.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F49F7DE1BB5C9DF00EF5B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F49F7DF1BB5C9DF00EF5B63 /* TenMinDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenMinDemoTests.m; sourceTree = "<group>"; };
+		8F49F7EC1BB5CDB900EF5B63 /* CYXOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXOneViewController.h; path = Controller/CYXOneViewController.h; sourceTree = "<group>"; };
+		8F49F7ED1BB5CDB900EF5B63 /* CYXOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXOneViewController.m; path = Controller/CYXOneViewController.m; sourceTree = "<group>"; };
+		8F49F7F21BB5CDB900EF5B63 /* CYXTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXTwoViewController.h; path = Controller/CYXTwoViewController.h; sourceTree = "<group>"; };
+		8F49F7F31BB5CDB900EF5B63 /* CYXTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXTwoViewController.m; path = Controller/CYXTwoViewController.m; sourceTree = "<group>"; };
+		8F49F7F81BB5CDB900EF5B63 /* CYXThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXThreeViewController.h; path = Controller/CYXThreeViewController.h; sourceTree = "<group>"; };
+		8F49F7F91BB5CDB900EF5B63 /* CYXThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXThreeViewController.m; path = Controller/CYXThreeViewController.m; sourceTree = "<group>"; };
+		8F49F7FE1BB5CDB900EF5B63 /* BaseSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseSettingController.h; path = TenMinDemo/classes/4/Controller/BaseSettingController.h; sourceTree = "<group>"; };
+		8F49F7FF1BB5CDB900EF5B63 /* BaseSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseSettingController.m; path = TenMinDemo/classes/4/Controller/BaseSettingController.m; sourceTree = "<group>"; };
+		8F49F80F1BB5CDB900EF5B63 /* CYXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXNavigationController.h; path = Controller/CYXNavigationController.h; sourceTree = "<group>"; };
+		8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXNavigationController.m; path = Controller/CYXNavigationController.m; sourceTree = "<group>"; };
+		8F49F8111BB5CDB900EF5B63 /* CYXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXTabBarController.h; path = Controller/CYXTabBarController.h; sourceTree = "<group>"; };
+		8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXTabBarController.m; path = Controller/CYXTabBarController.m; sourceTree = "<group>"; };
+		8F49F8131BB5CDB900EF5B63 /* CYXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXViewController.h; path = Controller/CYXViewController.h; sourceTree = "<group>"; };
+		8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXViewController.m; path = Controller/CYXViewController.m; sourceTree = "<group>"; };
+		8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = classes/other/AppDelegate.h; sourceTree = "<group>"; };
+		8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = classes/other/AppDelegate.m; sourceTree = "<group>"; };
+		9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EA62BBAC1BF85A0500249555 /* CYXFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXFourViewController.h; sourceTree = "<group>"; };
+		EA62BBAD1BF85A0500249555 /* CYXFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXFourViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F49F7BD1BB5C9DF00EF5B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F49F7D61BB5C9DF00EF5B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		084A460942A14A96B363367F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E9543E8849F85F3B1D0D784 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27BB0BD28AA2319464F24C5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */,
+				1C9E8C71C7994594B16CC328 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F49F7B71BB5C9DF00EF5B63 = {
+			isa = PBXGroup;
+			children = (
+				8F49F7FE1BB5CDB900EF5B63 /* BaseSettingController.h */,
+				8F49F7FF1BB5CDB900EF5B63 /* BaseSettingController.m */,
+				8F49F7C21BB5C9DF00EF5B63 /* TenMinDemo */,
+				8F49F7DC1BB5C9DF00EF5B63 /* TenMinDemoTests */,
+				8F49F7C11BB5C9DF00EF5B63 /* Products */,
+				27BB0BD28AA2319464F24C5A /* Pods */,
+				084A460942A14A96B363367F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F49F7C11BB5C9DF00EF5B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7C01BB5C9DF00EF5B63 /* SettingPage框架.app */,
+				8F49F7D91BB5C9DF00EF5B63 /* SettingPage框架.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F49F7C21BB5C9DF00EF5B63 /* TenMinDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7E91BB5CDB900EF5B63 /* classes */,
+				8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */,
+				8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */,
+				8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */,
+				8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */,
+				8F49F7C31BB5C9DF00EF5B63 /* Supporting Files */,
+			);
+			path = TenMinDemo;
+			sourceTree = "<group>";
+		};
+		8F49F7C31BB5C9DF00EF5B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7C41BB5C9DF00EF5B63 /* Info.plist */,
+				8F49F7C51BB5C9DF00EF5B63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F49F7DC1BB5C9DF00EF5B63 /* TenMinDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7DF1BB5C9DF00EF5B63 /* TenMinDemoTests.m */,
+				8F49F7DD1BB5C9DF00EF5B63 /* Supporting Files */,
+			);
+			path = TenMinDemoTests;
+			sourceTree = "<group>";
+		};
+		8F49F7DD1BB5C9DF00EF5B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7DE1BB5C9DF00EF5B63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F49F7E91BB5CDB900EF5B63 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7EA1BB5CDB900EF5B63 /* 1 */,
+				8F49F7F01BB5CDB900EF5B63 /* 2 */,
+				8F49F7F61BB5CDB900EF5B63 /* 3 */,
+				8F49F7FC1BB5CDB900EF5B63 /* 4 */,
+				8F49F80B1BB5CDB900EF5B63 /* Main(主要) */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		8F49F7EA1BB5CDB900EF5B63 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7EC1BB5CDB900EF5B63 /* CYXOneViewController.h */,
+				8F49F7ED1BB5CDB900EF5B63 /* CYXOneViewController.m */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		8F49F7F01BB5CDB900EF5B63 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7F21BB5CDB900EF5B63 /* CYXTwoViewController.h */,
+				8F49F7F31BB5CDB900EF5B63 /* CYXTwoViewController.m */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		8F49F7F61BB5CDB900EF5B63 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7F81BB5CDB900EF5B63 /* CYXThreeViewController.h */,
+				8F49F7F91BB5CDB900EF5B63 /* CYXThreeViewController.m */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		8F49F7FC1BB5CDB900EF5B63 /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				EA62BBAC1BF85A0500249555 /* CYXFourViewController.h */,
+				EA62BBAD1BF85A0500249555 /* CYXFourViewController.m */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		8F49F80B1BB5CDB900EF5B63 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F80F1BB5CDB900EF5B63 /* CYXNavigationController.h */,
+				8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */,
+				8F49F8111BB5CDB900EF5B63 /* CYXTabBarController.h */,
+				8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */,
+				8F49F8131BB5CDB900EF5B63 /* CYXViewController.h */,
+				8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F49F7BF1BB5C9DF00EF5B63 /* SettingPage框架 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F49F7E31BB5C9DF00EF5B63 /* Build configuration list for PBXNativeTarget "SettingPage框架" */;
+			buildPhases = (
+				8F49F7BC1BB5C9DF00EF5B63 /* Sources */,
+				8F49F7BD1BB5C9DF00EF5B63 /* Frameworks */,
+				8F49F7BE1BB5C9DF00EF5B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SettingPage框架";
+			productName = TenMinDemo;
+			productReference = 8F49F7C01BB5C9DF00EF5B63 /* SettingPage框架.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F49F7D81BB5C9DF00EF5B63 /* SettingPage框架Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F49F7E61BB5C9DF00EF5B63 /* Build configuration list for PBXNativeTarget "SettingPage框架Tests" */;
+			buildPhases = (
+				8F49F7D51BB5C9DF00EF5B63 /* Sources */,
+				8F49F7D61BB5C9DF00EF5B63 /* Frameworks */,
+				8F49F7D71BB5C9DF00EF5B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F49F7DB1BB5C9DF00EF5B63 /* PBXTargetDependency */,
+			);
+			name = "SettingPage框架Tests";
+			productName = TenMinDemoTests;
+			productReference = 8F49F7D91BB5C9DF00EF5B63 /* SettingPage框架.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F49F7B81BB5C9DF00EF5B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = CYX;
+				TargetAttributes = {
+					8F49F7BF1BB5C9DF00EF5B63 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3T72HFU8Y8;
+					};
+					8F49F7D81BB5C9DF00EF5B63 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8F49F7BF1BB5C9DF00EF5B63;
+					};
+				};
+			};
+			buildConfigurationList = 8F49F7BB1BB5C9DF00EF5B63 /* Build configuration list for PBXProject "SettingPage框架" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F49F7B71BB5C9DF00EF5B63;
+			productRefGroup = 8F49F7C11BB5C9DF00EF5B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F49F7BF1BB5C9DF00EF5B63 /* SettingPage框架 */,
+				8F49F7D81BB5C9DF00EF5B63 /* SettingPage框架Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F49F7BE1BB5C9DF00EF5B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F49F7D41BB5C9DF00EF5B63 /* LaunchScreen.xib in Resources */,
+				8F49F7D11BB5C9DF00EF5B63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F49F7D71BB5C9DF00EF5B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F49F7BC1BB5C9DF00EF5B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F49F8241BB5CDB900EF5B63 /* CYXNavigationController.m in Sources */,
+				8F49F81D1BB5CDB900EF5B63 /* BaseSettingController.m in Sources */,
+				8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */,
+				8F49F81B1BB5CDB900EF5B63 /* CYXTwoViewController.m in Sources */,
+				8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */,
+				EA62BBAE1BF85A0500249555 /* CYXFourViewController.m in Sources */,
+				8F49F81A1BB5CDB900EF5B63 /* CYXOneViewController.m in Sources */,
+				8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */,
+				8F49F81C1BB5CDB900EF5B63 /* CYXThreeViewController.m in Sources */,
+				8F49F7C61BB5C9DF00EF5B63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F49F7D51BB5C9DF00EF5B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F49F7E01BB5C9DF00EF5B63 /* TenMinDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F49F7DB1BB5C9DF00EF5B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F49F7BF1BB5C9DF00EF5B63 /* SettingPage框架 */;
+			targetProxy = 8F49F7DA1BB5C9DF00EF5B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F49F7D31BB5C9DF00EF5B63 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F49F7E11BB5C9DF00EF5B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F49F7E21BB5C9DF00EF5B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F49F7E41BB5C9DF00EF5B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TenMinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liman;
+				PRODUCT_NAME = "SettingPage框架";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8F49F7E51BB5C9DF00EF5B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9E8C71C7994594B16CC328 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TenMinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liman;
+				PRODUCT_NAME = "SettingPage框架";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8F49F7E71BB5C9DF00EF5B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TenMinDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "SettingPage框架";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SettingPage框架.app/SettingPage框架";
+			};
+			name = Debug;
+		};
+		8F49F7E81BB5C9DF00EF5B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TenMinDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "SettingPage框架";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SettingPage框架.app/SettingPage框架";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F49F7BB1BB5C9DF00EF5B63 /* Build configuration list for PBXProject "SettingPage框架" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F49F7E11BB5C9DF00EF5B63 /* Debug */,
+				8F49F7E21BB5C9DF00EF5B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F49F7E31BB5C9DF00EF5B63 /* Build configuration list for PBXNativeTarget "SettingPage框架" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F49F7E41BB5C9DF00EF5B63 /* Debug */,
+				8F49F7E51BB5C9DF00EF5B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F49F7E61BB5C9DF00EF5B63 /* Build configuration list for PBXNativeTarget "SettingPage框架Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F49F7E71BB5C9DF00EF5B63 /* Debug */,
+				8F49F7E81BB5C9DF00EF5B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F49F7B81BB5C9DF00EF5B63 /* Project object */;
+}
