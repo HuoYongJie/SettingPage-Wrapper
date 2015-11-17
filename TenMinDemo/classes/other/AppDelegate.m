@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "CYXViewController.h"
-#import "CYXTabBarController.h"
+#import "TabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,16 +16,13 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     // 1.创建窗口
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     // 2.设置窗口的根控制器
-//    CYXViewController *dragVC = [[CYXViewController alloc]init];
-//    self.window.rootViewController = dragVC;
-    
-    CYXTabBarController *dragVC = [[CYXTabBarController alloc]init];
-    self.window.rootViewController = dragVC;
+    self.window.rootViewController = [TabBarController new];
     
     // 3.显示窗口
     [self.window makeKeyAndVisible];

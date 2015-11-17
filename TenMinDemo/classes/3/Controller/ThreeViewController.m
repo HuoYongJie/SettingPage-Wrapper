@@ -1,22 +1,24 @@
 //
-//  CYXNavigationController.m
-//   
+//  CYXThreeViewController.m
+//  
 //
 //  Created by liman on 15/9/4.
 //  Copyright (c) 2015年 liman. All rights reserved.
 //
 
-#import "CYXNavigationController.h"
+#import "ThreeViewController.h"
 
-@interface CYXNavigationController ()
+@interface ThreeViewController ()
 
 @end
 
-@implementation CYXNavigationController
+@implementation ThreeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {

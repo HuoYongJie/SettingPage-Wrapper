@@ -11,15 +11,14 @@
 		8F49F7D11BB5C9DF00EF5B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */; };
 		8F49F7D41BB5C9DF00EF5B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */; };
 		8F49F7E01BB5C9DF00EF5B63 /* TenMinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7DF1BB5C9DF00EF5B63 /* TenMinDemoTests.m */; };
-		8F49F81A1BB5CDB900EF5B63 /* CYXOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7ED1BB5CDB900EF5B63 /* CYXOneViewController.m */; };
-		8F49F81B1BB5CDB900EF5B63 /* CYXTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7F31BB5CDB900EF5B63 /* CYXTwoViewController.m */; };
-		8F49F81C1BB5CDB900EF5B63 /* CYXThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7F91BB5CDB900EF5B63 /* CYXThreeViewController.m */; };
+		8F49F81A1BB5CDB900EF5B63 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7ED1BB5CDB900EF5B63 /* OneViewController.m */; };
+		8F49F81B1BB5CDB900EF5B63 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7F31BB5CDB900EF5B63 /* TwoViewController.m */; };
+		8F49F81C1BB5CDB900EF5B63 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7F91BB5CDB900EF5B63 /* ThreeViewController.m */; };
 		8F49F81D1BB5CDB900EF5B63 /* BaseSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7FF1BB5CDB900EF5B63 /* BaseSettingController.m */; };
-		8F49F8241BB5CDB900EF5B63 /* CYXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */; };
-		8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */; };
-		8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */; };
+		8F49F8251BB5CDB900EF5B63 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8121BB5CDB900EF5B63 /* TabBarController.m */; };
 		8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */; };
-		EA62BBAE1BF85A0500249555 /* CYXFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62BBAD1BF85A0500249555 /* CYXFourViewController.m */; };
+		EA5702741BFAE9C8000CB3C2 /* FourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5702731BFAE9C8000CB3C2 /* FourCell.m */; };
+		EA62BBAE1BF85A0500249555 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62BBAD1BF85A0500249555 /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,25 +42,23 @@
 		8F49F7D91BB5C9DF00EF5B63 /* SettingPage框架.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SettingPage框架.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F49F7DE1BB5C9DF00EF5B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F49F7DF1BB5C9DF00EF5B63 /* TenMinDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenMinDemoTests.m; sourceTree = "<group>"; };
-		8F49F7EC1BB5CDB900EF5B63 /* CYXOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXOneViewController.h; path = Controller/CYXOneViewController.h; sourceTree = "<group>"; };
-		8F49F7ED1BB5CDB900EF5B63 /* CYXOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXOneViewController.m; path = Controller/CYXOneViewController.m; sourceTree = "<group>"; };
-		8F49F7F21BB5CDB900EF5B63 /* CYXTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXTwoViewController.h; path = Controller/CYXTwoViewController.h; sourceTree = "<group>"; };
-		8F49F7F31BB5CDB900EF5B63 /* CYXTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXTwoViewController.m; path = Controller/CYXTwoViewController.m; sourceTree = "<group>"; };
-		8F49F7F81BB5CDB900EF5B63 /* CYXThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXThreeViewController.h; path = Controller/CYXThreeViewController.h; sourceTree = "<group>"; };
-		8F49F7F91BB5CDB900EF5B63 /* CYXThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXThreeViewController.m; path = Controller/CYXThreeViewController.m; sourceTree = "<group>"; };
+		8F49F7EC1BB5CDB900EF5B63 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OneViewController.h; path = Controller/OneViewController.h; sourceTree = "<group>"; };
+		8F49F7ED1BB5CDB900EF5B63 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OneViewController.m; path = Controller/OneViewController.m; sourceTree = "<group>"; };
+		8F49F7F21BB5CDB900EF5B63 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoViewController.h; path = Controller/TwoViewController.h; sourceTree = "<group>"; };
+		8F49F7F31BB5CDB900EF5B63 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoViewController.m; path = Controller/TwoViewController.m; sourceTree = "<group>"; };
+		8F49F7F81BB5CDB900EF5B63 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreeViewController.h; path = Controller/ThreeViewController.h; sourceTree = "<group>"; };
+		8F49F7F91BB5CDB900EF5B63 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreeViewController.m; path = Controller/ThreeViewController.m; sourceTree = "<group>"; };
 		8F49F7FE1BB5CDB900EF5B63 /* BaseSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseSettingController.h; path = TenMinDemo/classes/4/Controller/BaseSettingController.h; sourceTree = "<group>"; };
 		8F49F7FF1BB5CDB900EF5B63 /* BaseSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseSettingController.m; path = TenMinDemo/classes/4/Controller/BaseSettingController.m; sourceTree = "<group>"; };
-		8F49F80F1BB5CDB900EF5B63 /* CYXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXNavigationController.h; path = Controller/CYXNavigationController.h; sourceTree = "<group>"; };
-		8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXNavigationController.m; path = Controller/CYXNavigationController.m; sourceTree = "<group>"; };
-		8F49F8111BB5CDB900EF5B63 /* CYXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXTabBarController.h; path = Controller/CYXTabBarController.h; sourceTree = "<group>"; };
-		8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXTabBarController.m; path = Controller/CYXTabBarController.m; sourceTree = "<group>"; };
-		8F49F8131BB5CDB900EF5B63 /* CYXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYXViewController.h; path = Controller/CYXViewController.h; sourceTree = "<group>"; };
-		8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYXViewController.m; path = Controller/CYXViewController.m; sourceTree = "<group>"; };
+		8F49F8111BB5CDB900EF5B63 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = "classes/Main(主要)/Controller/TabBarController.h"; sourceTree = "<group>"; };
+		8F49F8121BB5CDB900EF5B63 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = "classes/Main(主要)/Controller/TabBarController.m"; sourceTree = "<group>"; };
 		8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = classes/other/AppDelegate.h; sourceTree = "<group>"; };
 		8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = classes/other/AppDelegate.m; sourceTree = "<group>"; };
 		9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		EA62BBAC1BF85A0500249555 /* CYXFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXFourViewController.h; sourceTree = "<group>"; };
-		EA62BBAD1BF85A0500249555 /* CYXFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXFourViewController.m; sourceTree = "<group>"; };
+		EA5702721BFAE9C8000CB3C2 /* FourCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourCell.h; sourceTree = "<group>"; };
+		EA5702731BFAE9C8000CB3C2 /* FourCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourCell.m; sourceTree = "<group>"; };
+		EA62BBAC1BF85A0500249555 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		EA62BBAD1BF85A0500249555 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +124,8 @@
 				8F49F7E91BB5CDB900EF5B63 /* classes */,
 				8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */,
 				8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */,
+				8F49F8111BB5CDB900EF5B63 /* TabBarController.h */,
+				8F49F8121BB5CDB900EF5B63 /* TabBarController.m */,
 				8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */,
 				8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */,
 				8F49F7C31BB5C9DF00EF5B63 /* Supporting Files */,
@@ -167,7 +166,6 @@
 				8F49F7F01BB5CDB900EF5B63 /* 2 */,
 				8F49F7F61BB5CDB900EF5B63 /* 3 */,
 				8F49F7FC1BB5CDB900EF5B63 /* 4 */,
-				8F49F80B1BB5CDB900EF5B63 /* Main(主要) */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -175,8 +173,8 @@
 		8F49F7EA1BB5CDB900EF5B63 /* 1 */ = {
 			isa = PBXGroup;
 			children = (
-				8F49F7EC1BB5CDB900EF5B63 /* CYXOneViewController.h */,
-				8F49F7ED1BB5CDB900EF5B63 /* CYXOneViewController.m */,
+				8F49F7EC1BB5CDB900EF5B63 /* OneViewController.h */,
+				8F49F7ED1BB5CDB900EF5B63 /* OneViewController.m */,
 			);
 			path = 1;
 			sourceTree = "<group>";
@@ -184,8 +182,8 @@
 		8F49F7F01BB5CDB900EF5B63 /* 2 */ = {
 			isa = PBXGroup;
 			children = (
-				8F49F7F21BB5CDB900EF5B63 /* CYXTwoViewController.h */,
-				8F49F7F31BB5CDB900EF5B63 /* CYXTwoViewController.m */,
+				8F49F7F21BB5CDB900EF5B63 /* TwoViewController.h */,
+				8F49F7F31BB5CDB900EF5B63 /* TwoViewController.m */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -193,8 +191,8 @@
 		8F49F7F61BB5CDB900EF5B63 /* 3 */ = {
 			isa = PBXGroup;
 			children = (
-				8F49F7F81BB5CDB900EF5B63 /* CYXThreeViewController.h */,
-				8F49F7F91BB5CDB900EF5B63 /* CYXThreeViewController.m */,
+				8F49F7F81BB5CDB900EF5B63 /* ThreeViewController.h */,
+				8F49F7F91BB5CDB900EF5B63 /* ThreeViewController.m */,
 			);
 			path = 3;
 			sourceTree = "<group>";
@@ -202,23 +200,12 @@
 		8F49F7FC1BB5CDB900EF5B63 /* 4 */ = {
 			isa = PBXGroup;
 			children = (
-				EA62BBAC1BF85A0500249555 /* CYXFourViewController.h */,
-				EA62BBAD1BF85A0500249555 /* CYXFourViewController.m */,
+				EA62BBAC1BF85A0500249555 /* FourViewController.h */,
+				EA62BBAD1BF85A0500249555 /* FourViewController.m */,
+				EA5702721BFAE9C8000CB3C2 /* FourCell.h */,
+				EA5702731BFAE9C8000CB3C2 /* FourCell.m */,
 			);
 			path = 4;
-			sourceTree = "<group>";
-		};
-		8F49F80B1BB5CDB900EF5B63 /* Main(主要) */ = {
-			isa = PBXGroup;
-			children = (
-				8F49F80F1BB5CDB900EF5B63 /* CYXNavigationController.h */,
-				8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */,
-				8F49F8111BB5CDB900EF5B63 /* CYXTabBarController.h */,
-				8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */,
-				8F49F8131BB5CDB900EF5B63 /* CYXViewController.h */,
-				8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */,
-			);
-			path = "Main(主要)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,15 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F49F8241BB5CDB900EF5B63 /* CYXNavigationController.m in Sources */,
 				8F49F81D1BB5CDB900EF5B63 /* BaseSettingController.m in Sources */,
-				8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */,
-				8F49F81B1BB5CDB900EF5B63 /* CYXTwoViewController.m in Sources */,
+				8F49F8251BB5CDB900EF5B63 /* TabBarController.m in Sources */,
+				8F49F81B1BB5CDB900EF5B63 /* TwoViewController.m in Sources */,
 				8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */,
-				EA62BBAE1BF85A0500249555 /* CYXFourViewController.m in Sources */,
-				8F49F81A1BB5CDB900EF5B63 /* CYXOneViewController.m in Sources */,
-				8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */,
-				8F49F81C1BB5CDB900EF5B63 /* CYXThreeViewController.m in Sources */,
+				EA5702741BFAE9C8000CB3C2 /* FourCell.m in Sources */,
+				EA62BBAE1BF85A0500249555 /* FourViewController.m in Sources */,
+				8F49F81A1BB5CDB900EF5B63 /* OneViewController.m in Sources */,
+				8F49F81C1BB5CDB900EF5B63 /* ThreeViewController.m in Sources */,
 				8F49F7C61BB5C9DF00EF5B63 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

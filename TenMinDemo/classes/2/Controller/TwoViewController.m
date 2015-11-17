@@ -1,18 +1,18 @@
 //
-//  CYXThreeViewController.m
+//  CYXTwoViewController.m
 //  
 //
 //  Created by liman on 15/9/4.
 //  Copyright (c) 2015年 liman. All rights reserved.
 //
 
-#import "CYXThreeViewController.h"
+#import "TwoViewController.h"
 
-@interface CYXThreeViewController ()
+@interface TwoViewController ()
 
 @end
 
-@implementation CYXThreeViewController
+@implementation TwoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

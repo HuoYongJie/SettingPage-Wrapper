@@ -6,13 +6,13 @@
 //  Copyright (c) 2015年 liman. All rights reserved.
 //
 
-#import "CYXOneViewController.h"
+#import "OneViewController.h"
 
-@interface CYXOneViewController ()
+@interface OneViewController ()
 
 @end
 
-@implementation CYXOneViewController
+@implementation OneViewController
 
 #pragma mark - life cycle 生命周期方法
 

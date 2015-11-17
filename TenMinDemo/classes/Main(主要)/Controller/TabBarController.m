@@ -6,24 +6,23 @@
 //  Copyright (c) 2015年 liman. All rights reserved.
 //
 
-#import "CYXTabBarController.h"
-#import "CYXOneViewController.h"
-#import "CYXTwoViewController.h"
-#import "CYXThreeViewController.h"
-#import "CYXFourViewController.h"
+#import "TabBarController.h"
+#import "OneViewController.h"
+#import "TwoViewController.h"
+#import "ThreeViewController.h"
+#import "FourViewController.h"
 
-@interface CYXTabBarController ()
+@interface TabBarController ()
 
 @end
 
-@implementation CYXTabBarController
+@implementation TabBarController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
 
     [self setUpAllChildViewController];
-
-
 }
 
 /**
@@ -31,19 +30,19 @@
  */
 - (void)setUpAllChildViewController{
     // 1.添加第一个控制器
-    CYXOneViewController *oneVC = [CYXOneViewController new];
+    OneViewController *oneVC = [OneViewController new];
     [self setUpOneChildViewController:oneVC image:[UIImage imageNamed:@"tab_home_icon"] title:@"首页"];
     
     // 2.添加第2个控制器
-    CYXTwoViewController *twoVC = [CYXTwoViewController new];
+    TwoViewController *twoVC = [TwoViewController new];
     [self setUpOneChildViewController:twoVC image:[UIImage imageNamed:@"js"] title:@"技术"];
     
     // 3.添加第3个控制器
-    CYXThreeViewController *threeVC = [CYXThreeViewController new];
+    ThreeViewController *threeVC = [ThreeViewController new];
     [self setUpOneChildViewController:threeVC image:[UIImage imageNamed:@"qw"] title:@"博文"];
     
     // 4.添加第4个控制器
-    CYXFourViewController *fourVC = [CYXFourViewController new];
+    FourViewController *fourVC = [FourViewController new];
     [self setUpOneChildViewController:fourVC image:[UIImage imageNamed:@"user"] title:@"设置"];
 }
 

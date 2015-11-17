@@ -6,6 +6,7 @@
 //  Copyright (c) 2015年 liman. All rights reserved.
 //
 #import <UIKit/UIKit.h>
+@class SettingItem;
 
 @interface BaseSettingController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
@@ -15,6 +16,15 @@
 @property (strong, nonatomic) UITableView *tableView;
 /**< 设置cells */
 @property (strong, nonatomic) NSArray *cells;
+
+/**
+ *  自定义cell
+ */
+- (UITableViewCell *)settingTableView:(UITableView *)tableView settingItem:(SettingItem *)item cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+/**
+ *  点击了cell
+ */
+- (void)settingTableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
 
@@ -40,7 +50,9 @@
 /**< 图片 */
 @property (strong, nonatomic) UIImage * image;
 
-/**< 设置标题图片 类方法 */
+/**
+ *  设置title和image
+ */
 + (instancetype)itemWithTitle:(NSString *)title imageName:(NSString *)imageName;
 
 @end

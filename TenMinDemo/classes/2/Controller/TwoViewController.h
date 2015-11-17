@@ -1,5 +1,5 @@
 //
-//  CYXOneViewController.h
+//  CYXTwoViewController.h
 //  
 //
 //  Created by liman on 15/9/4.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CYXOneViewController : UIViewController
+@interface TwoViewController : UIViewController
 
 @end

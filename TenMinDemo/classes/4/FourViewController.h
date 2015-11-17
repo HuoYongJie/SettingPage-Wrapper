@@ -7,6 +7,6 @@
 //
 #import "BaseSettingController.h"
 
-@interface CYXFourViewController : BaseSettingController
+@interface FourViewController : BaseSettingController
 
 @end

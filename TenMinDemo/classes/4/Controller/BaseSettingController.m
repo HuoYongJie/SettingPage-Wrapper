@@ -5,8 +5,6 @@
 //  Created by liman on 15/9/4.
 //  Copyright (c) 2015年 liman. All rights reserved.
 //
-#define identifier @"cell"
-
 #import "BaseSettingController.h"
 
 @interface BaseSettingController ()
@@ -61,25 +59,18 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-    if (!cell) {
-        cell  = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
-    }
-
     SettingGroupItem *group = _groups[indexPath.section];
     SettingItem *item = group.items[indexPath.row];
-
-    cell.textLabel.text = item.title;
-    cell.imageView.image = item.image;
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
-    return cell;
+    return [self settingTableView:tableView settingItem:item cellForRowAtIndexPath:indexPath];
 }
 
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    [self settingTableView:tableView didSelectRowAtIndexPath:indexPath];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section

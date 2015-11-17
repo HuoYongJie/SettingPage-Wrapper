@@ -1,5 +1,5 @@
 //
-//  CYXNavigationController.h
+//  CYXTabBarController.h
 //   
 //
 //  Created by liman on 15/9/4.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CYXNavigationController : UINavigationController
+@interface TabBarController : UITabBarController
 
 @end

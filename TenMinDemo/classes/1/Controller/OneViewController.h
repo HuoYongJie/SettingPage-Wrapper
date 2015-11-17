@@ -1,5 +1,5 @@
 //
-//  CYXThreeViewController.h
+//  CYXOneViewController.h
 //  
 //
 //  Created by liman on 15/9/4.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CYXThreeViewController : UIViewController
+@interface OneViewController : UIViewController
 
 @end
