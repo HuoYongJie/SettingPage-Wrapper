@@ -1,7 +1,7 @@
 SettingPage Wrapper
 ================
 
-##### 每个App都有设置界面, 都大同小异, 所以我封装了一个设置界面的框架, 以后就不用再单独写设置界面了, 一劳永逸.
+##### 每个App都有设置界面, 都大同小异, 所以我封装了一个设置界面的框架, 以后就不用再单独写设置界面了, 一劳永逸. `支持自定义UITableViewCell`
 
 效果图: ![](http://7sbo4v.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-11-17%20%E4%B8%8B%E5%8D%882.55.18.png)
 
@@ -80,7 +80,7 @@ SettingPage Wrapper
 ---
 
 
-##### Each App has 'setting-controller', and they are similar, so I wrapped a framework to package 'setting-controller'
+##### Each App has 'setting-controller', and they are similar, so I wrapped a framework to package 'setting-controller' `Support custom UITableViewCell`
 
 - How to use: see above
 - Renderings: see above
