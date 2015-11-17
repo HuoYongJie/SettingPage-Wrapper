@@ -17,7 +17,7 @@ SettingPage Wrapper
 	
 	#import "FourViewController.h"
 	
-	#define identifier @"cell"
+	#define identifier @"cell"
 	
 	@interface FourViewController ()
 	
