@@ -1,5 +1,5 @@
 //
-//  CYXFourViewController.m
+//  BaseSettingController.m
 //   
 //
 //  Created by liman on 15/9/4.
@@ -100,11 +100,15 @@
 
 @implementation SettingItem
 
-+ (instancetype)itemWithTitle:(NSString *)title imageName:(NSString *)imageName
++ (instancetype)itemWithTitle:(NSString *)title subTitle:(NSString *)subTitle imageName:(NSString *)imageName switchType:(SwitchType)switchType accessoryType:(UITableViewCellAccessoryType)accessoryType center:(BOOL)center
 {
     SettingItem *item = [SettingItem new];
     item.title = title;
+    item.subTitle = subTitle;
     item.image = [UIImage imageNamed:imageName];
+    item.switchType = switchType;
+    item.accessoryType = accessoryType;
+    item.center = center;
     
     return item;
 }

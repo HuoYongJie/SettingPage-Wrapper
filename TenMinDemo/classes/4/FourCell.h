@@ -2,14 +2,14 @@
 //  FourCell.h
 //  SettingPage框架
 //
-//  Created by liman on 15/11/17.
+//  Created by liman on 15/11/19.
 //  Copyright © 2015年 CYX. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseSettingCell.h"
 
-@interface FourCell : UITableViewCell
+@interface FourCell : BaseSettingCell
 
-@property (assign, nonatomic) BOOL showRed;
+@property (strong, nonatomic) UIImageView *customImageView;
 
 @end

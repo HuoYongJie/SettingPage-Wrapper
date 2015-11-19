@@ -14,11 +14,13 @@
 		8F49F81A1BB5CDB900EF5B63 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7ED1BB5CDB900EF5B63 /* OneViewController.m */; };
 		8F49F81B1BB5CDB900EF5B63 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7F31BB5CDB900EF5B63 /* TwoViewController.m */; };
 		8F49F81C1BB5CDB900EF5B63 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7F91BB5CDB900EF5B63 /* ThreeViewController.m */; };
-		8F49F81D1BB5CDB900EF5B63 /* BaseSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7FF1BB5CDB900EF5B63 /* BaseSettingController.m */; };
 		8F49F8251BB5CDB900EF5B63 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8121BB5CDB900EF5B63 /* TabBarController.m */; };
 		8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */; };
-		EA5702741BFAE9C8000CB3C2 /* FourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5702731BFAE9C8000CB3C2 /* FourCell.m */; };
 		EA62BBAE1BF85A0500249555 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62BBAD1BF85A0500249555 /* FourViewController.m */; };
+		EA7C827C1BFDC0E500BA73E4 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7C827B1BFDC0E500BA73E4 /* UIViewExt.m */; };
+		EA7C82821BFDCC3600BA73E4 /* FourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7C82811BFDCC3600BA73E4 /* FourCell.m */; };
+		EA7C82881BFDD56D00BA73E4 /* BaseSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7C82851BFDD56D00BA73E4 /* BaseSettingCell.m */; };
+		EA7C82891BFDD56D00BA73E4 /* BaseSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7C82871BFDD56D00BA73E4 /* BaseSettingController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,17 +50,21 @@
 		8F49F7F31BB5CDB900EF5B63 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoViewController.m; path = Controller/TwoViewController.m; sourceTree = "<group>"; };
 		8F49F7F81BB5CDB900EF5B63 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreeViewController.h; path = Controller/ThreeViewController.h; sourceTree = "<group>"; };
 		8F49F7F91BB5CDB900EF5B63 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreeViewController.m; path = Controller/ThreeViewController.m; sourceTree = "<group>"; };
-		8F49F7FE1BB5CDB900EF5B63 /* BaseSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseSettingController.h; path = TenMinDemo/classes/4/Controller/BaseSettingController.h; sourceTree = "<group>"; };
-		8F49F7FF1BB5CDB900EF5B63 /* BaseSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseSettingController.m; path = TenMinDemo/classes/4/Controller/BaseSettingController.m; sourceTree = "<group>"; };
 		8F49F8111BB5CDB900EF5B63 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = "classes/Main(主要)/Controller/TabBarController.h"; sourceTree = "<group>"; };
 		8F49F8121BB5CDB900EF5B63 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = "classes/Main(主要)/Controller/TabBarController.m"; sourceTree = "<group>"; };
 		8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = classes/other/AppDelegate.h; sourceTree = "<group>"; };
 		8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = classes/other/AppDelegate.m; sourceTree = "<group>"; };
 		9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		EA5702721BFAE9C8000CB3C2 /* FourCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourCell.h; sourceTree = "<group>"; };
-		EA5702731BFAE9C8000CB3C2 /* FourCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourCell.m; sourceTree = "<group>"; };
 		EA62BBAC1BF85A0500249555 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		EA62BBAD1BF85A0500249555 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		EA7C827A1BFDC0E500BA73E4 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		EA7C827B1BFDC0E500BA73E4 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		EA7C82801BFDCC3600BA73E4 /* FourCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourCell.h; sourceTree = "<group>"; };
+		EA7C82811BFDCC3600BA73E4 /* FourCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourCell.m; sourceTree = "<group>"; };
+		EA7C82841BFDD56D00BA73E4 /* BaseSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSettingCell.h; sourceTree = "<group>"; };
+		EA7C82851BFDD56D00BA73E4 /* BaseSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSettingCell.m; sourceTree = "<group>"; };
+		EA7C82861BFDD56D00BA73E4 /* BaseSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSettingController.h; sourceTree = "<group>"; };
+		EA7C82871BFDD56D00BA73E4 /* BaseSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSettingController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,7 @@
 		8F49F7B71BB5C9DF00EF5B63 = {
 			isa = PBXGroup;
 			children = (
-				8F49F7FE1BB5CDB900EF5B63 /* BaseSettingController.h */,
-				8F49F7FF1BB5CDB900EF5B63 /* BaseSettingController.m */,
+				EA7C82831BFDD56D00BA73E4 /* Setting Wrapper */,
 				8F49F7C21BB5C9DF00EF5B63 /* TenMinDemo */,
 				8F49F7DC1BB5C9DF00EF5B63 /* TenMinDemoTests */,
 				8F49F7C11BB5C9DF00EF5B63 /* Products */,
@@ -122,12 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				8F49F7E91BB5CDB900EF5B63 /* classes */,
-				8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */,
-				8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */,
-				8F49F8111BB5CDB900EF5B63 /* TabBarController.h */,
-				8F49F8121BB5CDB900EF5B63 /* TabBarController.m */,
-				8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */,
-				8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */,
 				8F49F7C31BB5C9DF00EF5B63 /* Supporting Files */,
 			);
 			path = TenMinDemo;
@@ -136,6 +135,13 @@
 		8F49F7C31BB5C9DF00EF5B63 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA7C82791BFDC0E500BA73E4 /* UIViewExt */,
+				8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */,
+				8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */,
+				8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */,
+				8F49F8111BB5CDB900EF5B63 /* TabBarController.h */,
+				8F49F8121BB5CDB900EF5B63 /* TabBarController.m */,
+				8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */,
 				8F49F7C41BB5C9DF00EF5B63 /* Info.plist */,
 				8F49F7C51BB5C9DF00EF5B63 /* main.m */,
 			);
@@ -202,10 +208,30 @@
 			children = (
 				EA62BBAC1BF85A0500249555 /* FourViewController.h */,
 				EA62BBAD1BF85A0500249555 /* FourViewController.m */,
-				EA5702721BFAE9C8000CB3C2 /* FourCell.h */,
-				EA5702731BFAE9C8000CB3C2 /* FourCell.m */,
+				EA7C82801BFDCC3600BA73E4 /* FourCell.h */,
+				EA7C82811BFDCC3600BA73E4 /* FourCell.m */,
 			);
 			path = 4;
+			sourceTree = "<group>";
+		};
+		EA7C82791BFDC0E500BA73E4 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				EA7C827A1BFDC0E500BA73E4 /* UIViewExt.h */,
+				EA7C827B1BFDC0E500BA73E4 /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		EA7C82831BFDD56D00BA73E4 /* Setting Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				EA7C82841BFDD56D00BA73E4 /* BaseSettingCell.h */,
+				EA7C82851BFDD56D00BA73E4 /* BaseSettingCell.m */,
+				EA7C82861BFDD56D00BA73E4 /* BaseSettingController.h */,
+				EA7C82871BFDD56D00BA73E4 /* BaseSettingController.m */,
+			);
+			path = "Setting Wrapper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,11 +334,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F49F81D1BB5CDB900EF5B63 /* BaseSettingController.m in Sources */,
+				EA7C82891BFDD56D00BA73E4 /* BaseSettingController.m in Sources */,
 				8F49F8251BB5CDB900EF5B63 /* TabBarController.m in Sources */,
+				EA7C827C1BFDC0E500BA73E4 /* UIViewExt.m in Sources */,
 				8F49F81B1BB5CDB900EF5B63 /* TwoViewController.m in Sources */,
+				EA7C82881BFDD56D00BA73E4 /* BaseSettingCell.m in Sources */,
+				EA7C82821BFDCC3600BA73E4 /* FourCell.m in Sources */,
 				8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */,
-				EA5702741BFAE9C8000CB3C2 /* FourCell.m in Sources */,
 				EA62BBAE1BF85A0500249555 /* FourViewController.m in Sources */,
 				8F49F81A1BB5CDB900EF5B63 /* OneViewController.m in Sources */,
 				8F49F81C1BB5CDB900EF5B63 /* ThreeViewController.m in Sources */,
