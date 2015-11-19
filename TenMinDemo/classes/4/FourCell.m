@@ -39,7 +39,7 @@
 {
     [super layoutSubviews];
     
-    if ([self.item.title isEqualToString:@"蓝牙"])
+    if ([self.item.title isEqualToString:@"用户名"])
     {
         _customImageView.frame = CGRectMake(self.contentView.width - 80, 9, 24, 24);
     }

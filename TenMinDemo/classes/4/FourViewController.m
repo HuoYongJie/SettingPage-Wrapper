@@ -20,7 +20,7 @@
 {
     [super viewDidLoad];
     
-    SettingItem *item1 = [SettingItem itemWithTitle:@"蓝牙" subTitle:@"打开" imageName:@"1.png" switchType:0 accessoryType:0 center:NO];
+    SettingItem *item1 = [SettingItem itemWithTitle:@"用户名" subTitle:@"小猫" imageName:@"1.png" switchType:0 accessoryType:0 center:NO];
     SettingItem *item2 = [SettingItem itemWithTitle:@"Wi-Fi" subTitle:@"关闭" imageName:@"2.png" switchType:0 accessoryType:1 center:NO];
     SettingItem *item3 = [SettingItem itemWithTitle:@"我去好评" subTitle:nil imageName:@"3.png" switchType:0 accessoryType:1 center:NO];
     SettingItem *item4 = [SettingItem itemWithTitle:@"开启通知" subTitle:nil imageName:@"4.png" switchType:1 accessoryType:0 center:NO];
@@ -54,7 +54,7 @@
                    ];
 }
 
-#pragma mark - 必须实现父类方法
+#pragma mark - 父类方法
 - (UITableViewCell *)settingTableView:(UITableView *)tableView settingItem:(SettingItem *)item cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     FourCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
@@ -68,9 +68,41 @@
     return cell;
 }
 
-- (void)settingTableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+#pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"section:%ld, row:%ld",indexPath.section, indexPath.row);
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    if (section == 0)
+    {
+        return CGFLOAT_MIN;
+    }
+    
+    return tableView.sectionHeaderHeight;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    return tableView.sectionFooterHeight;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *view = [UIView new];
+//    view.backgroundColor = [UIColor lightGrayColor];
+    
+    return view;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
+{
+    UIView *view = [UIView new];
+//    view.backgroundColor = [UIColor darkGrayColor];
+    
+    return view;
 }
 
 #pragma mark - BaseSettingCellDelegate

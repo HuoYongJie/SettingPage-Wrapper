@@ -65,29 +65,6 @@
     return [self settingTableView:tableView settingItem:item cellForRowAtIndexPath:indexPath];
 }
 
-#pragma mark - UITableViewDelegate
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    [self settingTableView:tableView didSelectRowAtIndexPath:indexPath];
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    if (section == 0)
-    {
-        return CGFLOAT_MIN;
-    }
-    
-    return tableView.sectionHeaderHeight;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
-{
-    return tableView.sectionHeaderHeight;
-}
-
 @end
 
 //--------------------------------------------------------------------------------------------

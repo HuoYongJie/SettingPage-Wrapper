@@ -3,7 +3,7 @@ SettingPage Wrapper
 
 ##### 每个App都有设置界面, 都大同小异, 所以我封装了一个设置界面的框架, 以后就不用再单独写设置界面了, 一劳永逸. `支持自定义UITableViewCell`
 
-效果图: ![](http://7sbo4v.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-11-19%20%E4%B8%8B%E5%8D%886.38.14.png)
+效果图: ![](http://7sbo4v.com1.z0.glb.clouddn.com/屏幕快照%202015-11-19%20下午10.26.45.png)
 
 使用方法: (详情请下载demo查看)
 
@@ -16,9 +16,8 @@ SettingPage Wrapper
 	- (void)viewDidLoad
 	{
 		[super viewDidLoad];
-		
-		// 设置cell标题,副标题,图片,SwitchType属性,accessoryType属性,是否居中显示
-		SettingItem *item1 = [SettingItem itemWithTitle:@"蓝牙" subTitle:@"打开" imageName:@"1.png" switchType:0 accessoryType:0 center:NO];
+	
+		SettingItem *item1 = [SettingItem itemWithTitle:@"用户名" subTitle:@"小猫" imageName:@"1.png" switchType:0 accessoryType:0 center:NO];
 		SettingItem *item2 = [SettingItem itemWithTitle:@"Wi-Fi" subTitle:@"关闭" imageName:@"2.png" switchType:0 accessoryType:1 center:NO];
 		SettingItem *item3 = [SettingItem itemWithTitle:@"我去好评" subTitle:nil imageName:@"3.png" switchType:0 accessoryType:1 center:NO];
 		SettingItem *item4 = [SettingItem itemWithTitle:@"开启通知" subTitle:nil imageName:@"4.png" switchType:1 accessoryType:0 center:NO];
@@ -33,24 +32,19 @@ SettingPage Wrapper
 					   @[item7],
 					   ];
 	}
-                   
-    #pragma mark - 必须实现父类方法
+	
+	#pragma mark - 父类方法
 	- (UITableViewCell *)settingTableView:(UITableView *)tableView settingItem:(SettingItem *)item cellForRowAtIndexPath:(NSIndexPath *)indexPath
 	{
-	    MyCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-	    if (!cell) {
-	        cell  = [[MyCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
-	    }
-	    
-	    cell.item = item;
-	    cell.delegate = self;
-	    
-	    return cell;
-	}
+		FourCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+		if (!cell) {
+			cell  = [[FourCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
+		}
 	
-	- (void)settingTableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-	{
-	    NSLog(@"section:%ld, row:%ld",indexPath.section, indexPath.row);
+		cell.item = item;
+		cell.delegate = self;
+	
+		return cell;
 	}
 	
 ---

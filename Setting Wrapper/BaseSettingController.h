@@ -24,13 +24,9 @@ typedef enum : NSUInteger {
 @property (strong, nonatomic) NSArray *cells;
 
 /**
- *  自定义cell
+ *  初始化cell
  */
 - (UITableViewCell *)settingTableView:(UITableView *)tableView settingItem:(SettingItem *)item cellForRowAtIndexPath:(NSIndexPath *)indexPath;
-/**
- *  点击了cell
- */
-- (void)settingTableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
 
@@ -38,10 +34,6 @@ typedef enum : NSUInteger {
 
 @interface SettingGroupItem : NSObject
 
-/** 头部标题 */
-@property (strong, nonatomic) NSString *headerTitle;
-/** 尾部标题 */
-@property (strong, nonatomic) NSString *footerTitle;
 /** 组中的行数组 */
 @property (strong, nonatomic) NSArray *items;
 
