@@ -3,7 +3,7 @@ SettingPage Wrapper
 
 ##### 每个App都有设置界面, 都大同小异, 所以我封装了一个设置界面的框架, 以后就不用再单独写设置界面了, 一劳永逸. `支持自定义UITableViewCell`
 
-效果图: ![](http://7sbo4v.com1.z0.glb.clouddn.com/屏幕快照%202015-11-19%20下午10.26.45.png)
+效果图: ![](http://7sbo4v.com1.z0.glb.clouddn.com/213213.png)
 
 使用方法: (详情请下载demo查看)
 

@@ -35,7 +35,13 @@
 //    SettingItem *item55 = [SettingItem itemWithTitle:@"555555" subTitle:nil imageName:@" " switchType:0 accessoryType:1 center:NO];
 //    SettingItem *item66 = [SettingItem itemWithTitle:@"666666" subTitle:nil imageName:@" " switchType:0 accessoryType:1 center:NO];
 //    SettingItem *item77 = [SettingItem itemWithTitle:@"777777" subTitle:nil imageName:@" " switchType:0 accessoryType:1 center:NO];
-    
+//    SettingItem *item111 = [SettingItem itemWithTitle:@"111111" subTitle:nil imageName:@" " switchType:0 accessoryType:1 center:NO];
+//    SettingItem *item222 = [SettingItem itemWithTitle:@"222222" subTitle:nil imageName:@" " switchType:0 accessoryType:1 center:NO];
+//    SettingItem *item333 = [SettingItem itemWithTitle:@"333333" subTitle:nil imageName:@" " switchType:0 accessoryType:1 center:NO];
+//    SettingItem *item444 = [SettingItem itemWithTitle:@"444444" subTitle:nil imageName:@" " switchType:0 accessoryType:1 center:NO];
+//    SettingItem *item555 = [SettingItem itemWithTitle:@"555555" subTitle:nil imageName:@" " switchType:0 accessoryType:1 center:NO];
+//    SettingItem *item666 = [SettingItem itemWithTitle:@"666666" subTitle:nil imageName:@" " switchType:0 accessoryType:1 center:NO];
+//    SettingItem *item777 = [SettingItem itemWithTitle:@"777777" subTitle:nil imageName:@" " switchType:0 accessoryType:1 center:NO];
 
     
     self.cells = @[
@@ -51,6 +57,13 @@
 //                   @[item55],
 //                   @[item66],
 //                   @[item77],
+//                   @[item111],
+//                   @[item222],
+//                   @[item333],
+//                   @[item444],
+//                   @[item555],
+//                   @[item666],
+//                   @[item777],
                    ];
 }
 

@@ -226,10 +226,10 @@
 		EA7C82831BFDD56D00BA73E4 /* Setting Wrapper */ = {
 			isa = PBXGroup;
 			children = (
-				EA7C82841BFDD56D00BA73E4 /* BaseSettingCell.h */,
-				EA7C82851BFDD56D00BA73E4 /* BaseSettingCell.m */,
 				EA7C82861BFDD56D00BA73E4 /* BaseSettingController.h */,
 				EA7C82871BFDD56D00BA73E4 /* BaseSettingController.m */,
+				EA7C82841BFDD56D00BA73E4 /* BaseSettingCell.h */,
+				EA7C82851BFDD56D00BA73E4 /* BaseSettingCell.m */,
 			);
 			path = "Setting Wrapper";
 			sourceTree = "<group>";

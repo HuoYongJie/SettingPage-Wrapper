@@ -47,6 +47,15 @@
     {
         _customImageView.frame = CGRectZero;
     }
+    
+    if ([self.item.title isEqualToString:@"退出登录"])
+    {
+        self.textLabel.textColor = [UIColor redColor];
+    }
+    else
+    {
+        self.textLabel.textColor = [UIColor blackColor];
+    }
 }
 
 @end
