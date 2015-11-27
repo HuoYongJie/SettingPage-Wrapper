@@ -46,11 +46,3 @@ SettingPage Wrapper
 	
 		return cell;
 	}
-	
----
-
-
-##### Each App has 'setting-controller', and they are similar, so I wrapped a framework to package 'setting-controller' `Support custom UITableViewCell`
-
-- How to use: see above
-- Renderings: see above
